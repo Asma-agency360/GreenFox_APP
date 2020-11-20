@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Item Panel"
+        android:background="#CD06530A"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#fff">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Post ID"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:hint="Post ID"
+        android:id="@+id/postid"
+        android:textSize="20sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="20dp"
+            android:text="Category"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:hint="Category"
+            android:id="@+id/categoryID"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Image URL"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:hint="image Url"
+        android:id="@+id/uimgurl"
+        android:textSize="20sp"
+        >
+    </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update_pic"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#CD06530A"
+        android:text="UPLOAD"
+        android:textColor="#ffffff"></Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="Item Name"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+
+        <EditText
+            android:id="@+id/item_name_update"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="Item Name"
+            android:textSize="20sp"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="20dp"
+            android:text="Item Price"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Item Price"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/item_price_update"
+        android:textSize="20sp"
+        >
+    </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit_update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#CD06530A"
+        android:text="UPDATE"
+        android:textColor="#ffffff"></Button>
+</LinearLayout>
